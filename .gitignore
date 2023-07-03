@@ -37,3 +37,5 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/test/java/pro/sky/skyprospringhw/SkyproSpringHwApplicationTests.java
+/src/main/resources/application.properties
