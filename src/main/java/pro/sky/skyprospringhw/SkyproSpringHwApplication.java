@@ -8,6 +8,6 @@ public class SkyproSpringHwApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SkyproSpringHwApplication.class, args);
-    }
 
+    }
 }
