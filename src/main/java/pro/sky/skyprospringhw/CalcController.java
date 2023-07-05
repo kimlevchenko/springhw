@@ -21,22 +21,22 @@ public class CalcController {
     }
 
     @GetMapping(path = "/plus")
-    public String countPlus(@RequestParam int num1, int num2) {
+    public String countPlus(@RequestParam int num1, @RequestParam int num2) {
         return countService.countPlus(num1, num2);
     }
 
     @GetMapping(path = "/minus")
-    public String countMinus(@RequestParam int num1, int num2) {
+    public String countMinus(@RequestParam int num1, @RequestParam int num2) {
         return countService.countMinus(num1, num2);
     }
 
     @GetMapping(path = "/multiply")
-    public String countMultiply(@RequestParam int num1, int num2) {
+    public String countMultiply(@RequestParam int num1, @RequestParam int num2) {
         return countService.countMultiply(num1, num2);
     }
 
     @GetMapping(path = "/divide")
-    public String countDivide(@RequestParam int num1, int num2) {
+    public String countDivide(@RequestParam int num1, @RequestParam int num2) {
         return countService.countDivide(num1, num2);
     }
 }
